@@ -3,11 +3,10 @@ import style from "./Toggle.module.css";
 
 function setStyleState(
   setFunc: (setValue: boolean) => void,
-  value: boolean,
   event: React.MouseEvent
 ): void {
-    console.log(event.button);
-    
+  console.log(event.button);
+
   // сделал не лкм и пкм а с учетом ctrl
   if (event.ctrlKey) {
     setFunc(false);
@@ -37,10 +36,10 @@ function Toggle() {
 
       <button
         onClick={(event: React.MouseEvent) =>
-          setStyleState(setToggleStyle, ToggleStyle, event)
+          setStyleState(setToggleStyle, event)
         }
       >
-       CTRL + RC / RC
+        CTRL + RC / RC
       </button>
     </section>
   );
