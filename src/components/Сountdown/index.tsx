@@ -16,9 +16,6 @@ function Countdown({ timeStart, timeEnd }: props) {
   const [TimerStop, setTimerStop] = useState<Date>(new Date());
   const [TimerCooldown, setTimerCooldown] = useState<number>(timeStart);
   const setInteral = useRef<number | null>(null);
-  // setInterval(() => {
-  //   console.log(1);
-  // }, 1000)
 
   const TimerGameStart = () => {
     let counter = TimerCooldown;
