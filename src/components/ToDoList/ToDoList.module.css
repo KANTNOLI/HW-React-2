@@ -1,0 +1,14 @@
+.body {
+  margin-top: 5vh;
+  width: 100%;
+  height: auto;
+}
+
+.condition {
+  font-weight: bold;
+  max-width: 50%;
+}
+
+input {
+  color: black;
+}
