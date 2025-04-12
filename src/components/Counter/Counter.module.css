@@ -1,0 +1,29 @@
+.body {
+  width: 100%;
+  height: auto;
+}
+
+.condition {
+  font-weight: bold;
+  max-width: 50%;
+}
+
+.counter {
+  font-size: 30px;
+}
+
+button{
+    color: black;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    color: white;
+   background-color: black;
+}
